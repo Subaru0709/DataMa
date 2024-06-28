@@ -15,3 +15,8 @@ for i in range(1,4):
     print('Round',i,':',value)
 
 print('Heads:', Head,', Tails:' , Tails)
+
+if Head > Tails:
+    print('You won!')
+else:
+    print('You lost!')
